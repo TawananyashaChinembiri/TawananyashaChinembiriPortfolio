@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tawananyasha Nigel Chinembiri — Data Scientist &amp; Analytics Engineer</title>
+<meta name="description" content="Portfolio of Tawananyasha Nigel Chinembiri — Data Science graduate building ML pipelines, cloud data systems, and analytics tools." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">TC</span>
+      <span class="brand-name">Tawananyasha&nbsp;Chinembiri</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link" data-section="about">About</a>
+      <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+      <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+      <a href="#certifications" class="nav-link" data-section="certifications">Certifications</a>
+      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle color theme" title="Toggle theme">
+        <svg id="themeIconDark" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.35-.02-.7-.05-1.04A7 7 0 0 1 12 3Z"/></svg>
+        <svg id="themeIconLight" viewBox="0 0 24 24" width="18" height="18" style="display:none"><path fill="currentColor" d="M12 4.5a1 1 0 0 1-1-1V2a1 1 0 1 1 2 0v1.5a1 1 0 0 1-1 1Zm0 15a1 1 0 0 1 1 1V22a1 1 0 1 1-2 0v-1.5a1 1 0 0 1 1-1ZM4.5 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h1.5a1 1 0 0 1 1 1Zm17.5 0a1 1 0 0 1-1 1h-1.5a1 1 0 1 1 0-2H21a1 1 0 0 1 1 1ZM6.34 7.76a1 1 0 0 1-1.41 0L3.87 6.7A1 1 0 1 1 5.28 5.3l1.06 1.06a1 1 0 0 1 0 1.4Zm12.02 12.02a1 1 0 0 1-1.41 0l-1.06-1.06a1 1 0 0 1 1.41-1.41l1.06 1.06a1 1 0 0 1 0 1.41ZM6.34 16.24a1 1 0 0 1 0 1.41L5.28 18.7a1 1 0 1 1-1.41-1.41l1.06-1.06a1 1 0 0 1 1.41 0Zm12.02-12.02a1 1 0 0 1 0 1.41L17.3 6.7A1 1 0 0 1 15.9 5.3l1.06-1.06a1 1 0 0 1 1.41 0ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav-progress" id="navProgress"></div>
+</header>
+
+<!-- ============ HERO ============ -->
+<main id="top">
+<section class="hero">
+  <canvas id="network" class="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="hero-kicker">Ruwa, Zimbabwe · Open to relocation</p>
+      <h1 class="hero-title">
+        Building systems that turn raw data into
+        <span class="hero-underline">decisive outcomes.</span>
+      </h1>
+      <p class="hero-role-line">I work as a <span id="roleRotator" class="role-rotator">Data Scientist</span></p>
+      <p class="hero-desc">
+        BSc Honours graduate in Data Science &amp; Informatics from the University of Zimbabwe.
+        I design end-to-end ML pipelines, query and model relational data at scale, and ship
+        analysis that people actually act on — from a 95%-accuracy clinical risk model to a CRM
+        clean-up that cut data discrepancies by 85%.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+
+      <div class="hero-stats" id="heroStats">
+        <div class="stat" data-count="95" data-suffix="%">
+          <span class="stat-num">0%</span>
+          <span class="stat-label">peak model accuracy</span>
+        </div>
+        <div class="stat" data-count="85" data-suffix="%">
+          <span class="stat-num">0%</span>
+          <span class="stat-label">CRM discrepancy cut</span>
+        </div>
+        <div class="stat" data-count="70" data-suffix="%">
+          <span class="stat-num">0%</span>
+          <span class="stat-label">first-contact IT resolution</span>
+        </div>
+        <div class="stat" data-count="75" data-suffix="%">
+          <span class="stat-num">0%</span>
+          <span class="stat-label">directional accuracy, sentiment model</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-photo-frame">
+        <img src="hero-photo.jpg" alt="Tawananyasha Chinembiri in graduation gown" class="hero-photo" />
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll to about section">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============ ROLE FILTER ============ -->
+<section class="role-filter-section">
+  <div class="section-inner">
+    <p class="role-filter-label">Reading this as a hiring manager for a specific role? Filter the page:</p>
+    <div class="role-filter" id="roleFilter" role="group" aria-label="Filter portfolio by role">
+      <button class="role-pill active" data-role="all" type="button">All</button>
+      <button class="role-pill" data-role="data-scientist" type="button">Data Scientist</button>
+      <button class="role-pill" data-role="data-engineer" type="button">Data Engineer</button>
+      <button class="role-pill" data-role="data-analyst" type="button">Data Analyst</button>
+      <button class="role-pill" data-role="ai-engineer" type="button">AI Engineer</button>
+      <button class="role-pill" data-role="dba" type="button">Database Administrator</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="section-inner about-grid">
+    <div class="section-head">
+      <h2 class="section-title">About</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="about-body">
+      <p>
+        I graduated with a BSc Honours in Data Science and Informatics (Upper Second Class) from the
+        University of Zimbabwe's Department of Analytics and Informatics, supervised by Mr. Zimowa.
+        My work sits at the intersection of machine learning, cloud infrastructure, and IT operations —
+        I like problems where a model or a query has to survive contact with a real system and real users.
+      </p>
+      <p>
+        Recent work includes stacking-ensemble classifiers for clinical risk prediction, explainable-AI
+        frameworks that translate model output into decisions a clinician can act on, and NLP pipelines
+        that link financial sentiment to next-day price movement. Alongside the data science, I've spent
+        time on the operations side too — resolving faults across telephony, CCTV and network systems as
+        an ICT intern, and teaching computer science to raise a class's average grade by 15% in a term.
+      </p>
+      <p>
+        I'm looking for a graduate role — data scientist, data engineer, data analyst, AI engineer, or
+        database administrator — where I can keep building things that make data usable, not just visible.
+      </p>
+      <div class="about-links">
+        <a href="mailto:tawananyashachinembiri03@gmail.com" class="about-link">✉ tawananyashachinembiri03@gmail.com</a>
+        <a href="https://github.com/TawananyashaChinembiri" target="_blank" rel="noopener" class="about-link">⌨ github.com/TawananyashaChinembiri</a>
+        <a href="https://linkedin.com/in/tawananyasha-chinembiri" target="_blank" rel="noopener" class="about-link">in linkedin.com/in/tawananyasha-chinembiri</a>
+      </div>
+    </div>
+    <div class="about-card">
+      <div class="profile-photo-card">
+        <img src="ppimage.jpeg" alt="Portrait of Tawananyasha Chinembiri" class="profile-photo" />
+      </div>
+      <div class="pipeline" id="pipeline">
+        <p class="pipeline-title">A typical pipeline I build</p>
+        <div class="pipeline-steps">
+          <div class="pipeline-step" data-step="0"><span class="pipeline-dot"></span>Ingest</div>
+          <div class="pipeline-step" data-step="1"><span class="pipeline-dot"></span>Clean</div>
+          <div class="pipeline-step" data-step="2"><span class="pipeline-dot"></span>Model</div>
+          <div class="pipeline-step" data-step="3"><span class="pipeline-dot"></span>Explain</div>
+          <div class="pipeline-step" data-step="4"><span class="pipeline-dot"></span>Ship</div>
+        </div>
+        <div class="pipeline-track"><div class="pipeline-progress" id="pipelineProgress"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section-alt" id="skills">
+  <div class="section-inner">
+    <div class="section-head">
+      <h2 class="section-title">Skills</h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group" data-roles="data-scientist,data-engineer,ai-engineer">
+        <h3 class="skill-group-title">Languages</h3>
+        <ul class="skill-bars">
+          <li><span class="skill-name">Python</span><div class="bar"><div class="bar-fill" style="--w:95%"></div></div></li>
+          <li><span class="skill-name">SQL</span><div class="bar"><div class="bar-fill" style="--w:90%"></div></div></li>
+          <li><span class="skill-name">JavaScript</span><div class="bar"><div class="bar-fill" style="--w:75%"></div></div></li>
+          <li><span class="skill-name">R</span><div class="bar"><div class="bar-fill" style="--w:65%"></div></div></li>
+          <li><span class="skill-name">PHP</span><div class="bar"><div class="bar-fill" style="--w:55%"></div></div></li>
+          <li><span class="skill-name">HTML / CSS</span><div class="bar"><div class="bar-fill" style="--w:80%"></div></div></li>
+        </ul>
+      </div>
+
+      <div class="skill-group" data-roles="data-scientist,ai-engineer">
+        <h3 class="skill-group-title">Data Science &amp; ML</h3>
+        <div class="chip-cloud">
+          <span class="chip">Pandas</span><span class="chip">Scikit-learn</span><span class="chip">TensorFlow</span>
+          <span class="chip">PyTorch</span><span class="chip">Keras</span><span class="chip">NLTK</span>
+          <span class="chip">SciPy</span><span class="chip">BeautifulSoup</span><span class="chip">Seaborn</span>
+          <span class="chip">NumPy</span><span class="chip">mwClient</span>
+        </div>
+      </div>
+
+      <div class="skill-group" data-roles="data-engineer,data-analyst,dba">
+        <h3 class="skill-group-title">Tools &amp; Platforms</h3>
+        <div class="chip-cloud">
+          <span class="chip">Git / GitHub</span><span class="chip">VS Code</span><span class="chip">PyCharm</span>
+          <span class="chip">Jupyter</span><span class="chip">Power BI</span><span class="chip">Cognos Analytics</span>
+          <span class="chip">Microsoft Azure</span><span class="chip">Excel</span><span class="chip">DataSpell</span>
+        </div>
+      </div>
+
+      <div class="skill-group sql-console" data-roles="data-analyst,dba,data-engineer">
+        <h3 class="skill-group-title">SQL, in practice</h3>
+        <p class="sql-hint">A query style I actually write — click run.</p>
+        <div class="console">
+          <div class="console-bar">
+            <span class="console-dot r"></span><span class="console-dot y"></span><span class="console-dot g"></span>
+            <span class="console-title">risk_query.sql</span>
+          </div>
+          <pre class="console-body" id="sqlQuery">SELECT p.patient_id, p.age,
+       AVG(r.risk_score) AS avg_risk
+FROM   patients p
+JOIN   risk_scores r ON r.patient_id = p.patient_id
+WHERE  r.model_version = 'v3'
+GROUP  BY p.patient_id, p.age
+HAVING AVG(r.risk_score) > 0.7
+ORDER  BY avg_risk DESC;</pre>
+          <div class="console-footer">
+            <button class="btn btn-mini" id="runQueryBtn" type="button">▶ Run query</button>
+            <span class="console-status" id="queryStatus">Idle</span>
+          </div>
+          <div class="console-result" id="queryResult" hidden></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <div class="section-head">
+      <h2 class="section-title">Key Projects</h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card project-card-lg" data-roles="data-scientist,ai-engineer" data-project="heart">
+        <div class="project-tag">Featured</div>
+        <h3 class="project-title">Heart Disease Risk Prediction</h3>
+        <p class="project-sub">Stacking Ensemble &amp; Explainable AI</p>
+        <p class="project-desc">
+          A multi-modal pipeline for classifying high-risk cardiac patients, paired with SHAP/LIME
+          explainability so clinicians can see why the model flagged a patient, not just that it did.
+        </p>
+        <ul class="project-points">
+          <li>Built a multi-modal data pipeline, cutting data-preparation time by 85%</li>
+          <li>Stacking ensemble — Logistic Regression, Random Forest, XGBoost, SVM — up to 95% accuracy</li>
+          <li>Applied SHAP/LIME to translate model output into clinically actionable insight</li>
+        </ul>
+        <div class="project-stack">
+          <span class="chip chip-sm">Python</span><span class="chip chip-sm">Scikit-learn</span>
+          <span class="chip chip-sm">XGBoost</span><span class="chip chip-sm">SHAP</span><span class="chip chip-sm">LIME</span>
+        </div>
+        <button class="project-more" data-open="heart" type="button">Details →</button>
+      </article>
+
+      <article class="project-card" data-roles="data-scientist,data-analyst,ai-engineer" data-project="sentiment">
+        <h3 class="project-title">Predicting Financial Markets via Sentiment</h3>
+        <p class="project-sub">NLP · Sentiment Analysis</p>
+        <p class="project-desc">
+          An NLP pipeline scraping financial news and social media for major equities, linking
+          sentiment shifts to next-day price direction.
+        </p>
+        <ul class="project-points">
+          <li>Scraped &amp; processed news/social data with Python and BeautifulSoup</li>
+          <li>Engineered sentiment scores from 1,000+ posts, merged with price data via yfinance</li>
+          <li>Classifier reached ~75% directional accuracy on held-out data</li>
+        </ul>
+        <div class="project-stack">
+          <span class="chip chip-sm">Python</span><span class="chip chip-sm">NLTK</span>
+          <span class="chip chip-sm">BeautifulSoup</span><span class="chip chip-sm">yfinance</span>
+        </div>
+        <button class="project-more" data-open="sentiment" type="button">Details →</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Project modal -->
+<div class="modal-overlay" id="modalOverlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" type="button" aria-label="Close">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section-alt" id="experience">
+  <div class="section-inner">
+    <div class="section-head">
+      <h2 class="section-title">Experience</h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="timeline" id="timeline">
+      <div class="timeline-item" data-roles="data-engineer,dba">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="timeline-date">Feb 2026 – May 2026</p>
+          <h3 class="timeline-role">Computer Science Teacher</h3>
+          <p class="timeline-org">MK Group of Schools</p>
+          <ul>
+            <li>Raised students' average grades by 15% in one term through targeted instruction</li>
+            <li>Analyzed student performance data to identify learning gaps and guide teaching strategy</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-roles="data-engineer,dba,data-analyst">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="timeline-date">Apr 2025 – Sep 2025</p>
+          <h3 class="timeline-role">ICT &amp; Telecommunications Intern</h3>
+          <p class="timeline-org">Communicate Systems</p>
+          <ul>
+            <li>Diagnosed and resolved faults across telephone, CCTV, and network systems, minimizing downtime</li>
+            <li>Conducted on-site surveys to quantify materials and specifications for network layout installations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="subsection-title">Professional Development</h3>
+    <div class="dev-grid">
+      <div class="dev-card" data-roles="data-scientist,data-analyst">
+        <p class="dev-org">Forage · British Airways</p>
+        <p class="dev-date">June 2024</p>
+        <p class="dev-desc">Scraped and analyzed customer review data; built a predictive model of buying behaviour for a data science job simulation.</p>
+      </div>
+      <div class="dev-card" data-roles="data-analyst,data-scientist">
+        <p class="dev-org">Forage · Quantium</p>
+        <p class="dev-date">May 2026</p>
+        <p class="dev-desc">Prepared transaction data, extracted customer insights, identified benchmark stores for uplift testing, and reported commercial recommendations.</p>
+      </div>
+      <div class="dev-card" data-roles="data-analyst,data-scientist">
+        <p class="dev-org">Forage · Accenture North America</p>
+        <p class="dev-date">May 2024</p>
+        <p class="dev-desc">Cleaned, modelled and analyzed 7 datasets on content trends; presented insights via deck and video to client and internal stakeholders.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section class="section" id="certifications">
+  <div class="section-inner">
+    <div class="section-head">
+      <h2 class="section-title">Certifications</h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="cert-grid">
+      <div class="cert-card" data-roles="data-analyst,data-scientist,dba">
+        <button class="cert-header" data-cert="ibm-da" type="button" aria-expanded="false">
+          <div>
+            <p class="cert-issuer">IBM</p>
+            <h3 class="cert-name">IBM Data Analyst Professional Certificate</h3>
+            <p class="cert-meta">11 courses · issued Jul 6, 2026</p>
+          </div>
+          <span class="cert-chevron">⌄</span>
+        </button>
+        <div class="cert-body" id="cert-ibm-da" hidden>
+          <ul class="cert-courses">
+            <li>Introduction to Data Analytics</li>
+            <li>Excel Basics for Data Analysis</li>
+            <li>Data Visualization and Dashboards with Excel and Cognos</li>
+            <li>Python for Data Science, AI &amp; Development</li>
+            <li>Python Project for Data Science</li>
+            <li>Databases and SQL for Data Science with Python</li>
+            <li>Data Analysis with Python</li>
+            <li>Data Visualization with Python</li>
+            <li>IBM Data Analyst Capstone Project</li>
+            <li>Generative AI: Enhance your Data Analytics Career</li>
+            <li>Data Analyst Career Guide and Interview Preparation</li>
+          </ul>
+          <a href="https://coursera.org/verify/professional-cert/UMD8TVVGU9T5" target="_blank" rel="noopener" class="cert-verify">Verify credential ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card" data-roles="dba,data-engineer">
+        <button class="cert-header" data-cert="ms-sql" type="button" aria-expanded="false">
+          <div>
+            <p class="cert-issuer">Microsoft</p>
+            <h3 class="cert-name">Microsoft SQL Server Professional Certificate</h3>
+            <p class="cert-meta">5 courses · issued Jun 16, 2026</p>
+          </div>
+          <span class="cert-chevron">⌄</span>
+        </button>
+        <div class="cert-body" id="cert-ms-sql" hidden>
+          <ul class="cert-courses">
+            <li>SQL Foundations</li>
+            <li>Data Manipulation and Transactions in SQL Server</li>
+            <li>Relational Database Design and Advanced Querying</li>
+            <li>Indexing, Performance Optimization &amp; Functions in SQL Server</li>
+            <li>Security, Maintenance &amp; Integration with BI Tools</li>
+          </ul>
+          <a href="https://coursera.org/verify/professional-cert/587TNLUJOFKQ" target="_blank" rel="noopener" class="cert-verify">Verify credential ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card" data-roles="ai-engineer,data-scientist">
+        <button class="cert-header" data-cert="ibm-dl" type="button" aria-expanded="false">
+          <div>
+            <p class="cert-issuer">IBM</p>
+            <h3 class="cert-name">Deep Learning — PyTorch, Keras &amp; TensorFlow</h3>
+            <p class="cert-meta">Applied deep learning across three frameworks</p>
+          </div>
+          <span class="cert-chevron">⌄</span>
+        </button>
+        <div class="cert-body" id="cert-ibm-dl" hidden>
+          <p class="cert-plain">Covers building, training and evaluating neural networks across PyTorch, Keras and TensorFlow.</p>
+        </div>
+      </div>
+
+      <div class="cert-card" data-roles="data-engineer,dba">
+        <button class="cert-header" data-cert="ms-bigdata" type="button" aria-expanded="false">
+          <div>
+            <p class="cert-issuer">Microsoft</p>
+            <h3 class="cert-name">Big Data Management &amp; Analytics</h3>
+            <p class="cert-meta">Large-scale data management and analytics</p>
+          </div>
+          <span class="cert-chevron">⌄</span>
+        </button>
+        <div class="cert-body" id="cert-ms-bigdata" hidden>
+          <p class="cert-plain">Covers managing and analyzing data at scale using Microsoft's big data toolset.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section-alt" id="contact">
+  <div class="section-inner contact-grid">
+    <div>
+      <div class="section-head">
+        <h2 class="section-title">Contact</h2>
+        <div class="section-rule"></div>
+      </div>
+      <p class="contact-lead">
+        Seeking a graduate role in data science, data engineering, analytics, AI engineering, or
+        database administration. Based in Ruwa, Zimbabwe — open to remote and relocation.
+      </p>
+
+      <ul class="contact-list">
+        <li>
+          <span>✉</span>
+          <a href="mailto:tawananyashachinembiri03@gmail.com">tawananyashachinembiri03@gmail.com</a>
+          <button class="copy-btn" id="copyEmailBtn" type="button" title="Copy email">Copy</button>
+        </li>
+        <li><span>☎</span><a href="tel:+263784752774">+263 78 475 2774</a></li>
+        <li><span>☎</span><a href="tel:+263714882946">+263 71 488 2946</a></li>
+        <li><span>⌂</span>Ruwa, Zimbabwe</li>
+        <li><span>⌨</span><a href="https://github.com/TawananyashaChinembiri" target="_blank" rel="noopener">github.com/TawananyashaChinembiri</a></li>
+        <li><span>in</span><a href="https://linkedin.com/in/tawananyasha-chinembiri" target="_blank" rel="noopener">linkedin.com/in/tawananyasha-chinembiri</a></li>
+      </ul>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="fName">Name</label>
+        <input type="text" id="fName" name="name" required minlength="2" placeholder="Your name">
+        <span class="form-error" id="err-fName"></span>
+      </div>
+      <div class="form-row">
+        <label for="fEmail">Email</label>
+        <input type="email" id="fEmail" name="email" required placeholder="you@example.com">
+        <span class="form-error" id="err-fEmail"></span>
+      </div>
+      <div class="form-row">
+        <label for="fMessage">Message</label>
+        <textarea id="fMessage" name="message" required minlength="10" rows="4" placeholder="What would you like to talk about?"></textarea>
+        <span class="form-error" id="err-fMessage"></span>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Send message</button>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <p>© <span id="year"></span> Tawananyasha Nigel Chinembiri. Built with HTML, CSS &amp; JavaScript.</p>
+    <button class="btn btn-mini" id="backToTop" type="button">↑ Top</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
